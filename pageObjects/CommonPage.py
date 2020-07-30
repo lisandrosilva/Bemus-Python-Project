@@ -86,97 +86,101 @@ class CommonPage:
 
     addpartesinfoaduanera = (By.XPATH, "//button[contains(text(),'Agregar Número de Pedimento')]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    descriptioninfoadicional = (By.ID, "additional_concept_descripcion_extranjera")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    referenciainfoadiconal = (By.ID, "additional_concept_mensaje")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    nombredeldatopersonal = (By.ID, "additional_concept_extras_atributo")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    valordeldatopersonal = (By.ID, "additional_concept_extras_valor")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    bottondatosextra = (By.XPATH, "//button[contains(text(),'Agregar Datos Extra')]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    addconsept = (By.ID, "add-concept")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    bottonadendageneral = (By.XPATH, "//div[@class='toggle-switch pull-right switch-adenda-diverza']")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    datosgenerales = (By.CSS_SELECTOR, "[href='#section-additional_general']")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    totaldatosgenerales = (By.ID, "receipt_additional_total_con_letra")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    numerodeordendatosgenerales = (By.ID, "receipt_additional_numero_orden")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    observacionesdatosgenerales = (By.ID, "receipt_additional_observaciones")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    datostransporte = (By.XPATH, "//a[@href='#section-additional_transport']")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    numerodeentregatransporte = (By.ID, "receipt_additional_numero_entrega")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    fachadeentrega = (By.ID, "receipt_additional_fecha_entrega")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    nombredeltransportista = (By.ID, "receipt_additional_nombre_transportista")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    destinodeentrega = (By.ID, "[receiver][destino][codigo_sitio]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    calledeentrega = (By.ID, "[receiver][destino][calle]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    numerodeldestino = (By.ID, "[receiver][destino][numero]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    coloniadeldestino = (By.ID, "[receiver][destino][colonia]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    cuidad = (By.ID, "receipt_additional_ciudad")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    estado = (By.ID, "[receiver][destino][estado]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    pais = (By.ID, "receipt_additional_pais")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    codigopostal = (By.ID, "[receiver][destino][codigo_postal]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    datoscliente = (By.CSS_SELECTOR, "[href='#section-additional_receiver']")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    numerodelcliente = (By.ID, "receipt_additional_num_cliente")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    numerodelcomprador = (By.ID, "receipt_additional_comprador")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    telefonodelcomprador = (By.ID, "[receiver][contact][telefono]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    contactodeemail = (By.ID, "[receiver][contact][email_contacto]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    contactoweb = (By.ID, "[receiver][contact][web]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    locationComprador = (By.ID, "[receiver][location][calle]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    numerolocalizacionComprador = (By.ID, "[receiver][location][numero]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    coloniacomprador = (By.ID, "[receiver][location][colonia]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    municipiocomprador = (By.ID, "[receiver][location][municipio]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    estadocomprador = (By.ID, "[receiver][location][estado]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    paiscomprador = (By.ID, "receipt_additional_pais")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    codigopostalcomprador = (By.ID, "[receiver][location][codigo_postal]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    datospersonalisadosadenda = (By.CSS_SELECTOR, "[href='#section-additional_extras")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    adddatosextraadenda = (By.CSS_SELECTOR, "[href='#modal-add-additional_extras']")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    nombredatosextra = (By.ID, "additional_extras_atributo")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    valoradicionaldatosextra = (By.ID, "additional_extras_valor")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    adddatosextraadicional = (By.ID, "add-additional_extras")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    tipoderalacion = (By.CSS_SELECTOR, "[data-id='receipt_related_cfdis_type']")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    agregarcomprobanterelacionado = (By.XPATH, "//button[contains(text(),'Agregar comprobante relacionado')]")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    relateduuid = (By.ID, "related_cfdi_uuid")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    addrelateduuid = (By.ID, "add-related_cfdi")
 
-    factorretenidos = (By.CSS_SELECTOR, "button[data-id='retention_factor_type']")
+    emitir = (By.XPATH, "//button[@type='submit']")
+
+    signout = (By.CSS_SELECTOR, "[stroke*='#000']")
+
+    closebotton = (By.XPATH, "//form[@class='link']")
 
 
 
@@ -299,158 +303,158 @@ class CommonPage:
     def AddPartesInfoAduanera(self):
         return self.driver.find_element(*CommonPage.addpartesinfoaduanera)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def DescriptionInfoAdicional(self):
+        return self.driver.find_element(*CommonPage.descriptioninfoadicional)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def ReferenciaInfoAdicional(self):
+        return self.driver.find_element(*CommonPage.referenciainfoadiconal)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NombreDelDatoPersonal(self):
+        return self.driver.find_element(*CommonPage.nombredeldatopersonal)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def ValorDelDatoPersonal(self):
+        return self.driver.find_element(*CommonPage.valordeldatopersonal)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def BottonDatosExtra(self):
+        return self.driver.find_element(*CommonPage.bottondatosextra)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def AddConsept(self):
+        return self.driver.find_element(*CommonPage.addconsept)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def BottonAdendaGeneral(self):
+        return self.driver.find_element(*CommonPage.bottonadendageneral)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def DatosGenerales(self):
+        return self.driver.find_element(*CommonPage.datosgenerales)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def TotalDatosGenerales(self):
+        return self.driver.find_element(*CommonPage.totaldatosgenerales)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NumeroDeOrdenDatosGenerales(self):
+        return self.driver.find_element(*CommonPage.numerodeordendatosgenerales)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def ObservacionesDatosGenerales(self):
+        return self.driver.find_element(*CommonPage.observacionesdatosgenerales)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def DatosTransporte(self):
+        return self.driver.find_element(*CommonPage.datostransporte)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NumeroDeEntrega(self):
+        return self.driver.find_element(*CommonPage.numerodeentregatransporte)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def FechaDeEntrega(self):
+        return self.driver.find_element(*CommonPage.fachadeentrega)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NombreDelTransportista(self):
+        return self.driver.find_element(*CommonPage.nombredeltransportista)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def Destino(self):
+        return self.driver.find_element(*CommonPage.destinodeentrega)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def Calle(self):
+        return self.driver.find_element(*CommonPage.calledeentrega)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NumeroDelDestino(self):
+        return self.driver.find_element(*CommonPage.numerodeldestino)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def ColoniaDelDestino(self):
+        return self.driver.find_element(*CommonPage.coloniadeldestino)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def Cuidad(self):
+        return self.driver.find_element(*CommonPage.cuidad)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def Estado(self):
+        return self.driver.find_element(*CommonPage.estado)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def Pais(self):
+        return self.driver.find_element(*CommonPage.pais)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def CodigoPostal(self):
+        return self.driver.find_element(*CommonPage.codigopostal)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def DatosCliente(self):
+        return self.driver.find_element(*CommonPage.datoscliente)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NumeroDelCliente(self):
+        return self.driver.find_element(*CommonPage.numerodelcliente)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NumeroDelComprador(self):
+        return self.driver.find_element(*CommonPage.numerodelcomprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def TelephonoDelComprador(self):
+        return self.driver.find_element(*CommonPage.telefonodelcomprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def ContactoDeEmail(self):
+        return self.driver.find_element(*CommonPage.contactodeemail)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def ContactoWeb(self):
+        return self.driver.find_element(*CommonPage.contactoweb)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def LocationComprador(self):
+        return self.driver.find_element(*CommonPage.locationComprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NumeroLocationComprador(self):
+        return self.driver.find_element(*CommonPage.numerolocalizacionComprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def ColoniaComprador(self):
+        return self.driver.find_element(*CommonPage.coloniacomprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def MunicipioComprador(self):
+        return self.driver.find_element(*CommonPage.municipiocomprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def EstadoComprador(self):
+        return self.driver.find_element(*CommonPage.estadocomprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def PaisComprador(self):
+        return self.driver.find_element(*CommonPage.paiscomprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def CodigoPostalComprador(self):
+        return self.driver.find_element(*CommonPage.codigopostalcomprador)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def DatosPersonalisadosAdenda(self):
+        return self.driver.find_element(*CommonPage.datospersonalisadosadenda)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def AddDatosExtraAdenda(self):
+        return self.driver.find_element(*CommonPage.adddatosextraadenda)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def NombreDatosExtra(self):
+        return self.driver.find_element(*CommonPage.nombredatosextra)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def ValorAdicionalDatosExtra(self):
+        return self.driver.find_element(*CommonPage.valoradicionaldatosextra)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def AddDatosExtraAdicional(self):
+        return self.driver.find_element(*CommonPage.adddatosextraadicional)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def TipoDeRelaccion(self):
+        return self.driver.find_element(*CommonPage.tipoderalacion)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def AgregarComprobanteRelacionado(self):
+        return self.driver.find_element(*CommonPage.agregarcomprobanterelacionado)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def RelatedUUID(self):
+        return self.driver.find_element(*CommonPage.relateduuid)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def AddRelatedUUID(self):
+        return self.driver.find_element(*CommonPage.addrelateduuid)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def EmitirFactura(self):
+        return self.driver.find_element(*CommonPage.emitir)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def SignOut(self):
+        return self.driver.find_element(*CommonPage.signout)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def CloseBotton(self):
+        return self.driver.find_element(*CommonPage.closebotton)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    #def TasaCuotaRetenido(self):
+       # return self.driver.find_element(*CommonPage.tasacuotaretenido)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    #def TasaCuotaRetenido(self):
+        #return self.driver.find_element(*CommonPage.tasacuotaretenido)
 
-    def TasaCuotaRetenido(self):
-        return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    #def TasaCuotaRetenido(self):
+       # return self.driver.find_element(*CommonPage.tasacuotaretenido)
 
 
 
