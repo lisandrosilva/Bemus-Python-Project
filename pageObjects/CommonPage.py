@@ -182,6 +182,16 @@ class CommonPage:
 
     closebotton = (By.XPATH, "//form[@class='link']")
 
+    impuestoslocales = (By.CSS_SELECTOR, "[data-id=local_tax_description]")
+
+    addlocaltaxes = (By.ID, "add-local_tax")
+    #TIPO DE PROCESO INE
+    tipodeproceso = (By.CSS_SELECTOR, "[data-id='receipt_ine_process_type']")
+
+    tipodecomite = (By.CSS_SELECTOR, "[data-id='receipt_ine_comittee_type']")
+
+
+
 
 
 
@@ -447,14 +457,18 @@ class CommonPage:
     def CloseBotton(self):
         return self.driver.find_element(*CommonPage.closebotton)
 
-    #def TasaCuotaRetenido(self):
-       # return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def SelectImpuestosLocales(self):
+        return self.driver.find_element(*CommonPage.impuestoslocales)
 
-    #def TasaCuotaRetenido(self):
-        #return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def AddLocalTaxes(self):
+        return self.driver.find_element(*CommonPage.addlocaltaxes)
 
-    #def TasaCuotaRetenido(self):
-       # return self.driver.find_element(*CommonPage.tasacuotaretenido)
+    def TipoDeProcesoINE(self):
+        return self.driver.find_element(*CommonPage.tipodeproceso)
+
+    def TipoDeComiteINE(self):
+        return self.driver.find_element(*CommonPage.tipodecomite)
+
 
 
 

@@ -3,6 +3,7 @@ from lib2to3.pgen2 import driver
 import pytest
 from selenium.webdriver.chrome import webdriver
 from selenium import webdriver
+from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
@@ -20,7 +21,7 @@ from utilities.BaseClass import BaseClass
 class TestFactura(BaseClass):
 
 
-    def test_facturanotadecredito(self):
+    def test_facturabasica(self):
         self.driver.implicitly_wait(10)
         landingpage = LandingPage(self.driver)
         landingpage.getUserName().send_keys('lisandro.silva')
@@ -29,7 +30,8 @@ class TestFactura(BaseClass):
         homepage = HomePage(self.driver)
         homepage.getComprobantePage().click()
         tipodecomprobante = TiposDeComprobantes(self.driver)
-        tipodecomprobante.getNotaDeCredito().click()
+        tipodecomprobante.getCFDIIngreso().click()
+        tipodecomprobante.getFacturaImpuestosLocales().click()
         commonpage = CommonPage(self.driver)
         commonpage.RegimeFiscal().send_keys('612')
         commonpage.RegimeFiscal().send_keys(Keys.ENTER)
@@ -51,6 +53,11 @@ class TestFactura(BaseClass):
         commonpage.Description().send_keys('Factura')
         commonpage.ValorUnitario().send_keys('100')
         commonpage.NumeroDelConsepto().send_keys('123455')
+        BottonInpuestoslocales = self.driver.find_element_by_id('show-local_tax-form')
+        self.driver.execute_script("arguments[0].click();", BottonInpuestoslocales)
+        commonpage.SelectImpuestosLocales().send_keys('ISH')
+        commonpage.SelectImpuestosLocales().send_keys(Keys.ENTER)
+        commonpage.AddLocalTaxes().click()
         Retenidos = self.driver.find_element_by_id('show-retention-form')
         self.driver.execute_script("arguments[0].click();", Retenidos)
         commonpage.ImpustosRetenidos().click()
@@ -157,8 +164,9 @@ class TestFactura(BaseClass):
         wait.until(expected_conditions.presence_of_element_located((By.XPATH, "//div[contains(text(),'Documento emitido correctamente.')]")))
         ElementWait = self.driver.find_element_by_xpath("//div[contains(text(),'Documento emitido correctamente.')]")
         print(ElementWait.text)
-        commonpage.SignOut().click()
-        commonpage.CloseBotton().click()
+
+
+
 
 
 

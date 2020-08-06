@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bfe5f3a-41d7-44e7-b102-4c3cfce490f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_facturaBasica.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_facturaINE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_facturaImpuestosLocales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pageObjects/CommonPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/CommonPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/TiposDeComprobantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/TiposDeComprobantes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_facturanotadecrdito.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_facturanotadecrdito.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +53,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Demo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="test_facturaImpuestosLocales" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DiverzaPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_facturaImpuestosLocales.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +95,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_facturaImpuestosLocales.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -114,36 +123,57 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595358547837">
+    <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596730548780">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.709@0.23.1280.709" timestamp="1595358547837" />
+    <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.709@0.23.1280.709" timestamp="1596730548780" />
+    <state x="327" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596724486599">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="327" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.709@0.23.1280.709" timestamp="1596724486599" />
     <state x="378" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595951651669">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="378" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709@0.23.1280.709" timestamp="1595951651669" />
-    <state width="619" height="162" key="GridCell.Tab.0.bottom" timestamp="1595881241246">
+    <state width="619" height="202" key="GridCell.Tab.0.bottom" timestamp="1596730780520">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="619" height="162" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1595881241246" />
-    <state width="619" height="162" key="GridCell.Tab.0.center" timestamp="1595881241245">
+    <state width="619" height="202" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596730780520" />
+    <state width="619" height="202" key="GridCell.Tab.0.center" timestamp="1596730780519">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="619" height="162" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1595881241245" />
-    <state width="619" height="162" key="GridCell.Tab.0.left" timestamp="1595881241244">
+    <state width="619" height="202" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1596730780519" />
+    <state width="619" height="202" key="GridCell.Tab.0.left" timestamp="1596730780518">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="619" height="162" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1595881241244" />
-    <state width="619" height="162" key="GridCell.Tab.0.right" timestamp="1595881241245">
+    <state width="619" height="202" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1596730780518" />
+    <state width="619" height="202" key="GridCell.Tab.0.right" timestamp="1596730780520">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="619" height="162" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1595881241245" />
-    <state x="149" y="23" width="982" height="709" key="SettingsEditor" timestamp="1595349375831">
+    <state width="619" height="202" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1596730780520" />
+    <state width="619" height="202" key="GridCell.Tab.1.bottom" timestamp="1596730780377">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="149" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1595349375831" />
+    <state width="619" height="202" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596730780377" />
+    <state width="619" height="202" key="GridCell.Tab.1.center" timestamp="1596730780377">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="619" height="202" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1596730780377" />
+    <state width="619" height="202" key="GridCell.Tab.1.left" timestamp="1596730780376">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="619" height="202" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1596730780376" />
+    <state width="619" height="202" key="GridCell.Tab.1.right" timestamp="1596730780377">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="619" height="202" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1596730780377" />
+    <state x="149" y="23" width="982" height="709" key="SettingsEditor" timestamp="1596476503573">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="149" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1596476503573" />
     <state x="263" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596050619517">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
